@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <center>
+        <h1>DANOS TODA TU INFORMACIÓN.</h1>
+        <h4>no vamos a vendérsela a nadie...</h4>
+        <br>
+    </center>
+</head>
+<center>
+    <body>
+        <form action = "/signup" method = "post">
+            <fieldset>
+                <legend>Información Personal</legend>
+                <label for = "fname">NOMBRE: </label>
+                <input type = "text" id="fname" placeholder="Nombre">
+                <br><br>
+                <label for="flastname">APELLIDOS: </label>
+                <input type = "text" id="flastname" name=fname" placeholder="Apellidos">
+                <br><br>
+                <label for="edad">Introduzca su edad: </label>
+                <input type="number" min="1" max="100" value = "50" id="edad">
+                <br><br>
+                <label for = "select"> Por favor introduzca una de las siguientes opciones:</label>
+                <select id = "select" name = "select">
+                    <option value="value1">DNI</option>
+                    <option value="value2">PASAPORTE</option>
+                </select>
+                <input placeholder="DNI/PASAPORTE">
+                <br><br>
+                <label for ="email">Introduzca su email: </label>
+                <input type="email" id="email" placeholder="your_email@example.com" >
+                <br><br>
+                <label>Indícanos tú dirección:</label>
+                <br><br>
+                <label for="direccion">Calle y portal:</label>
+                <input id="direccion">
+                <br>
+                <label for="codpostal">Código Postal:</label>
+                <input id="codpostal">
+            </fieldset>
+
+            <fieldset>
+                <legend>Danos tu comentario</legend>
+                <textarea cols = "100"></textarea>
+            </fieldset>
+            <br>
+            <button type = "submit">Submit</button>
+
+        </form>
+        <br><br><br>
+        <a href="./index.html">Volver atrás</a>
+
+    </body>
+</center>
+</html>
