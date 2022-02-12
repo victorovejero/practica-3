@@ -1,44 +1,111 @@
-<!DOCTYPE>
-<html>
-<meta http-equiv = "Content-Type" context = "text/html" >
+<!doctype html>
+<html lang="en">
+<head>
 
-
-    <head>
-        <meta charset="utf-8">
-
-    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>INDRA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        html, body {
+          margin:0px;
+          height:100%;
+        }
+    </style>
+</head>
 
 <body>
-    <center>
-        <title>INDRA-INFO.es</title>
-        <h1>INFORMACIÓN SOBRE NOSOTROS</h1>
-        <iframe src="https://en.wikipedia.org/wiki/Indra_Sistemas" title="INDRA" width="1000" height="300"></iframe>
-        <br><br>
-        <br>
-        <h2>En Indra, nos comprometemos contigo a buscar la mejor solución para tu problema.</h2>
-        <h3>Estos son algunos de los proyectos que hemos llevado a cabo a lo largo de nuestra larga historia</h3>
-        <br>
-        <table border="true">
-            <thead>
-            <tr>
-                <th>País</th>
-                <th>Proyecto</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>España</td>
-                <td>Desarrollo de sistema IoT metro madrid</td>
-            </tr>
-            <tr>
-                <td>Estados Unidos</td>
-                <td>Infraestructura big data y AI de Tesla</td>
-            </tr>
-            </tbody>
-        </table>
-        <br><br><br>
-        <a href="./index.html">Volver atrás</a>
-    </center>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color:lightblue">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand rounded-pill">
+                <!-- Logo Image -->
+                <img src="../resources/indra_logo.jpg" width="80" alt="" class="d-inline-block align-middle mr-1 rounded-pill">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">SOBRE NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTANOS</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-auto" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-3">
+
+        <div class="container-fluid mt-4" id="full-info" >
+            <div class="row pt-5">
+                <div class="col-md-8 offset-md-2 mt-1 table-responsive" id="info-square" >
+                    <h2>A que nos dedicamos?</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eaque eius esse est facilis illo molestiae voluptatum! Atque ducimus earum est eveniet iusto magnam molestias nam necessitatibus provident qui. Reprehenderit.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eaque eius esse est facilis illo molestiae voluptatum!
+                        <br>Atque ducimus earum est eveniet iusto magnam molestias nam necessitatibus provident qui. Reprehenderit.
+                        <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eaque eius esse est facilis illo molestiae voluptatum! Atque ducimus earum est eveniet iusto magnam molestias nam necessitatibus provident qui.
+                        <br>Reprehenderit.
+                        <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eaque eius esse est facilis illo molestiae voluptatum! Atque ducimus earum est eveniet iusto magnam molestias nam necessitatibus provident qui. Reprehenderit.
+                        <br><br>
+                    </p>
+                    <h2 style="text-align:center">Últimos Proyectos</h2>
+                    <br>
+                    <table class="table table-striped table-primary table-bordered border-dark table-hover">
+                        <thead>
+                        <tr>
+                            <th scope="col">País</th>
+                            <th scope="col">Cliente</th>
+                            <th scope="col">Resumen</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">España</th>
+                            <td>KPMG</td>
+                            <td>Cambios de procesos industriales para la <br>integración de IA en PYMES.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Alemania</th>
+                            <td>BMW</td>
+                            <td>Implementacion de varios proyectos I+D+I<br> para la optimización de toma de decisiones
+                                <br> inteligentes.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">China</th>
+                            <td>Samsung</td>
+                            <td>Soluciones microelectrónicas para la <br> mejora de memoria en los dispositivos móviles</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Irlanda</th>
+                            <td>Apple</td>
+                            <td>Desarrollo de seguridad activa en primera capa</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <br>
+            <center>
+                <a  href="./index.html" style="color:white">Volver atrás</a>
+            </center>
+        </div>
+
+
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
