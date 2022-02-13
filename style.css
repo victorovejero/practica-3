@@ -30,7 +30,7 @@ h1{
     height: 500px;
 }
 main{
-    background: url("resources/edificio_2.jpg") no-repeat top center fixed;
+    background: url("edificio_2.jpg") no-repeat top center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
