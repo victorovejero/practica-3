@@ -13,3 +13,6 @@ He probado con diferentes estilos en cada página pero, aun asi, he intentado ma
 Las páginas se conectan a través de los links en el la barra de navegación.
 
 
+**** 
+PARA QUE ME FUNCIONE GITHUB PAGES HE TENIDO QUE DESORDENAR TODA LA ESTRUCTURA DE CARPETAS Y PONER TODOS LOS FICHEROS JUNTOS EN EL /main.
+****
